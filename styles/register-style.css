@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #022b3a;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 10px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.error {
+    border: 2px solid red;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#logo {
+    width: 86px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+#menu {
+    margin-left: 1.5rem;
+    font-size: 4.4rem;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1f7a8c;
+    min-width: 10rem;
+}
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.dropdown-content a:hover {
+    background-color: #145c66;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+}
+.container {
+    min-height: 125vh;
+    width: 100%;
+    background-color: #e1e5f2;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+label {
+    display: inline-block;
+    width: 12rem;
+    text-align: right;
+    margin-right: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.form-div {
+    margin-bottom: 1rem;
+}
+
+input {
+    height: 2.8rem;
+    width: 22rem;
+}
+
+
+.form-div .genders .radio {
+    height: 2rem;
+    width: 4rem;
+    margin-bottom: 2rem;
+}
+.form-div p {
+    display: inline-block;
+
+}
+.sub-btns {
+    height: 2.8rem;
+    width: 10rem;
+    background-color: #1f7a8c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2rem;
+    
+}
+.sub-btns:hover{
+    background-color: #145c66;
+    font-weight: 500;
+}
+
+.btns-container {
+
+    margin-left: 12rem;
+}
+
+#generate-member-id, #generate-trainer-id {
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    color: #145c66;
+    font-weight: 600;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .heading {
+        font-size: 1.6rem;
+    }
+    label {
+        font-size: 1.4rem;
+        width: 14rem;
+    }
+    input {
+        height: 2.6rem;
+        width: 24rem;
+    }
+    main h2 {
+        font-size: 2rem;
+    }
+    main p {
+        font-size:1.6rem;
+    }
+
+    .form-div p {
+        font-size: 1.4rem;
+    }
+    .sub-btns {
+        height: 2.9rem;
+        width: 12rem;
+    }
+
+    .btns-container {
+        margin-left: 15rem;
+    }
+
+    #generate {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 1.8rem;
+    }
+    input {
+        height: 2.8rem;
+        width: 28rem;
+    }
+
+    main p {
+        margin-bottom: 2rem;
+    }
+    label {
+        font-size: 1.4rem;
+        width: 22rem;
+        margin-right: 2rem;
+    }
+    .sub-btns {
+        height: 4rem;
+        width: 14rem;
+    }
+    .btns-container {
+        margin-left: 24rem;
+    }
+}

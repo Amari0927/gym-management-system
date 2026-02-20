@@ -1,0 +1,80 @@
+[
+    {
+        "member_id": "949309",
+        "firstName": "Merissa",
+        "lastName": "Halliwall",
+        "email": "mm_h@hotmail.com",
+        "password": "f1rstPa$$",
+        "address_1": "Lodge Road",
+        "address_2": "",
+        "parish": "Christ Church",
+        "dob": "",
+        "membership_type": "Standard",
+        "gender": ""
+    },
+    {
+        "member_id": "901440",
+        "firstName": "Terold",
+        "lastName": "Bostwick",
+        "email": "terold.bostwick@gmail.com",
+        "password": "Secur3@cc3s5",
+        "address_1": "7 Jasmine Ridge",
+        "address_2": "Hopefield Crescent",
+        "parish": "St. James",
+        "dob": "",
+        "membership_type": "Standard",
+        "gender": ""
+    },
+    {
+        "member_id": "940830",
+        "firstName": "Vanda",
+        "lastName": "Marshall",
+        "email": "vmarhsall@guardian.co.uk",
+        "password": "Oll1p&p$",
+        "address_1": "Sargeants Village Tenantry",
+        "address_2": "",
+        "parish": "Christ Church",
+        "dob": "",
+        "membership_type": "Silver",
+        "gender": ""
+    },
+    {
+        "member_id": "910948",
+        "firstName": "Winston",
+        "lastName": "Greaves",
+        "email": "winston@bimap.gov.bb",
+        "password": "f03verP@ssword",
+        "address_1": "33 Welches Terrace",
+        "address_2": "",
+        "parish": "St. Michael",
+        "dob": "",
+        "membership_type": "Bronze",
+        "gender": ""
+    },
+    {
+        "member_id": "921035",
+        "firstName": "Mark",
+        "lastName": "Belgrave",
+        "email": "bboy89@hotmail.com",
+        "password": "246Bajan#1",
+        "address_1": "76 Edghill Terrace",
+        "address_2": "",
+        "parish": "St. Thomas",
+        "dob": "",
+        "membership_type": "Platinum",
+        "gender": ""
+    },
+    {
+        "member_id": "906059",
+        "firstName": "Pamalee",
+        "lastName": "Gaskin",
+        "email": "pamgask99@gmail.com",
+        "password": "pamal3G#$k",
+        "address_1": "Lot 33",
+        "address_2": "The Belle",
+        "parish": "St. Michael",
+        "dob": "",
+        "membership_type": "Bronze",
+        "gender": ""
+    }
+]

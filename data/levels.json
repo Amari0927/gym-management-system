@@ -1,0 +1,10 @@
+[
+    {"member_level_name" : "Standard"},
+    {"member_level_name" : "Bronze"},
+    {"member_level_name" : "Silver"},
+    {"member_level_name" : "Platinum"},  
+    {"trainer_level_name" : "Instructor"},
+    {"trainer_level_name" : "Personal Trainer"},
+    {"trainer_level_name" : "Elite Personal Trainer"},
+    {"trainer_level_name" : "Elite Trainer and Nutrition Advisor"}  
+]

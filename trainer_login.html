@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8da3c0e23.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <title>Fitness Universe</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head-top">
+                <div class="dropdown">
+                    <i class="fa-solid fa-bars" id="menu"></i>
+                    <div class="dropdown-content">
+                        <a href="#">Change Location</a>
+                        <a href="#">Gym Schedule</a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>The Fitness Universe</h1>
+                    <h2>Live Your Best Life</h2>
+                </div>
+                <img src="images/logo.svg" alt="Logo" id="logo">
+            </div>
+        </header>
+        <main>
+            <div class="info-container"></div>
+                <h1>Personal Trainer Login</h1>
+                <div id="error-message"></div>
+                <form id="trainer-form" >
+                    <label for="trainer-email">Email</label>
+                    <input type="email" name="trainer-email" id="email" placeholder="Email" required>
+                    <label for="trainer-password">Password</label>
+                    <input type="password" name="trainer-password" id="password" placeholder="Password" required>
+                    <input type="hidden" id="employeeTrainer" name="employee" value="trainer">
+                    <button type="button" id="trainer-login">Log In</button>
+                    <a href="forgot_trainer.html" id="recover-pass">Recover Password</a>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
+
+

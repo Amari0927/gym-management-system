@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/register-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8da3c0e23.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body id="update-trainer-pg">
+    <div class="container">
+        <header>
+            <div class="dropdown">
+                        <i class="fa-solid fa-bars" id="menu"></i>
+                        <div class="dropdown-content">
+                            <a href="#">Sign Out</a>
+                        </div>
+                    </div>
+            <div class="heading">
+                    <h1>The Fitness Universe</h1>
+                    <h2>Live Your Best Life</h2>
+            </div>
+            <img src="images/logo.svg" alt="logo" id="logo">
+        </header>
+        <main>
+            <h2 class="form-head">Trainer Registration</h2>
+            <p class="form-head">All fields required</p>
+            <div id="error-message"></div>
+            <div id="success-message"></div>
+            <form id="update-trainer-form">
+                <div class="form-div">
+                    <label for="trainer_id">Trainer ID:</label>
+                    <input type="text" id="trainer_id" name="trainer_id" required readonly> <a href="#" id="generate-trainer-id">Generate</a>
+                </div>
+                <div class="form-div">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-div">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-div">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-div">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-div">
+                    <label for="con-password">Confirm Password</label>
+                    <input type="password" name="con-password" id="con-password" required>
+                </div>
+                <div class="form-div">
+                    <label for="address_1">Address 1</label>
+                    <input type="text" id="address_1" name="address_1" required>
+                </div>
+                <div class="form-div">
+                    <label for="address_2">Address 2</label>
+                    <input type="text" id="address_2" name="address_2">
+                </div>
+                <div class="form-div">
+                    <label for="parishes" id="parish-sec">Parish</label>
+                </div>
+                <div class="form-div">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div class="form-div">
+                    <label for="trainer-lvl" id="trainer-lvl-sec">Trainer Level:</label>
+                </div>
+                <div class="form-div">
+                    <div class="genders">
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" class="radio" id="male" value="Male"> <p>Male</p>
+                        <input type="radio" name="gender" class="radio" id="female" value="Female"> <p>Female</p>
+                    </div>
+                </div>
+                <div class="btns-container">
+                    <input type="button" class="sub-btns" id="update-trainer" value="Update">
+                    <input type="button" class="sub-btns" id="cancel-trainer" value="Cancel">
+                </div>
+            </form>
+        </main>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

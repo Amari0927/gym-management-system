@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #022b3a;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 10px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    gap: 10rem;
+    background-color: #e1e5f2;
+}
+
+#logo {
+    width: 86px;
+    height: 80px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.head-top {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    font-size: 4.4rem;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1f7a8c;
+    min-width: 10rem;
+}
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.dropdown-content a:hover {
+    background-color: #145c66;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.heading {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.member-info {
+    margin: 4rem 0;
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    height: 100%;
+}
+
+main a {
+    text-decoration: none;
+}
+
+button {
+    height: 6rem;
+    width: 22rem;
+    background-color: #1f7a8c;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #145c66;
+    font-weight: 500;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .heading {
+        font-size: 1.8rem;
+    }
+
+    button {
+        height: 8rem;
+        width: 28rem;
+    }
+
+    .container {
+        gap: 8rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 2rem;
+    }
+    button {
+        height: 8rem;
+        width: 36rem;
+    }
+
+    .container {
+        gap: 10rem;
+    }
+
+    .member-info {
+        font-size: 1.6rem;
+        padding: 0.5rem 8rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        margin: 0 auto;
+    }
+    
+}

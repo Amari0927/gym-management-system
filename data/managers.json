@@ -1,0 +1,22 @@
+[
+    {
+        "email": "todd.phillips@fitnessu.life",
+        "firstName": "Todd",
+        "lastName": "Phillips",
+        "password":"M3nt10#@1T"
+    },
+
+    {
+        "email": "marsh.fredrick@fitnessuniverse.com",
+        "firstName": "Marsh",
+        "lastName": "Fredrick",
+        "password":"gRenT1l$@l3"
+    },
+
+    {
+        "email": "gene.rodenberry@fitnessuniverse.bb",
+        "firstName": "Gene",
+        "lastName": "Rodenberry",
+        "password":"th3#@st3RPl@n"
+    }
+]

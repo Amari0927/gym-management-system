@@ -1,0 +1,41 @@
+[
+    {
+        "trainer_id": "733233",
+        "email": "a.pryor@fitnessu.life",
+        "firstName": "Andrew",
+        "lastName": "Pryor",
+        "password":"@ndr#wPry0r123",
+        "parish" : "Christ Church",
+        "address1" : "47 Clapham Court",
+        "address2" : "",
+        "dob" : "",
+        "level" : "Instructor",
+        "gender" : ""
+    },
+    {
+        "trainer_id" : "7090192",
+        "email": "jjd@fitnessuniverse.com",
+        "firstName": "Jennifer",
+        "lastName": "Davis",
+        "password":"Anoth3rpa$$",
+        "parish" : "St. Michael",
+        "address1" : "Hinds Gap",
+        "address2" : "",
+        "dob" : "",
+        "level" : "Personal Trainer",
+        "gender" : ""
+    },
+    {
+    "trainer_id" : "7849201",
+    "email": "boss_man@fitnessuniverse.bb",
+    "firstName": "Anderson",
+    "lastName": "Alleyne",
+    "password":"Pa$sw0rd",
+    "parish" : "St. Michael",
+    "address1" : "3 Charity House",
+    "address2" : "Pinelands Gardens",
+    "dob" : "",
+    "level" : "Elite Trainer and Nutrition Advisor",
+    "gender" : ""
+    }
+]

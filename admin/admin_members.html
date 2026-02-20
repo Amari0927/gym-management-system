@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/trainer-c-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8da3c0e23.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <title>Fitness Universe</title>
+</head>
+<body id="admin-mem">
+    <div class="container">
+        <header>
+            <div class="head-container">
+                <div class="head-top">
+                    <div class="dropdown">
+                        <i class="fa-solid fa-bars" id="menu"></i>
+                        <div class="dropdown-content">
+                            <a href="#">Gym Schedule</a>
+                            <a id="admin-sign-out">Sign Out</a>
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <h1>The Fitness Universe</h1>
+                        <h2>Live Your Best Life</h2>
+                    </div>
+                    <img src="../images/logo.svg" alt="Logo" id="logo">
+                </div>
+                <div class="member-info">
+                    <p>Name: Yves Laurent</p>
+                    <p>Trainer ID: 90029</p>
+                </div>
+            </div>
+            <div class="popup">
+                <span class="pop-up-message" id="pop"></span>
+            </div>
+        </header>
+        <main>
+            <nav class="side-bar">
+                <ul>
+                    <li>
+                        <a href="">
+                            <button class="active">Members</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="admin_trainers.html">
+                            <button>Trainers</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <button>Reports</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <button>My Account</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search-ctn">
+                <form action="">
+                    <input type="text" placeholder="Search">
+                    <button type="submit" id="search">Search</button>
+                    <a href="../new_member.html" id="new">New Member</a>
+                </form>
+            </div>
+            <section class="table-sec">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Action</th>
+                            <th>Membership</th>
+                            <th>First name</th>
+                            <th>Last name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </section>
+            
+        </main>
+    </div>
+    <script type="module" src="../index.js"></script>
+</body>
+</html>
